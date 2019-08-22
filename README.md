@@ -35,16 +35,12 @@ Update your application configuration to register the package in `config/app.php
 ],
 ~~~
 
-### 3 - Update ZOOP Laravel configuration
-Rename config.example.php to config.php in `zoop/src/resources/config/` and change the following lines:
+### 3 - Zoop in .env
+insert in .env:
 
 ~~~
-'defaults'  => [
-    //...
-    'publishable_key'   => 'YOUR_PUBLISHABLE_KEY',
-    'marketplace_id'    => 'YOUR_MARKETPLACE_ID',
-    //...
-]
+    ZOOP_PUBLISHABLE_KEY=YOUR_PUBLISHABLE_KEY
+    ZOOP_MARKETPLACE_ID=YOUR_MARKETPLACE_ID
 ~~~
 
 ...enjoy it :D.
