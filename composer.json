@@ -1,5 +1,5 @@
 {
-    "name": "adhenrique/zoop",
+    "name": "deizepe/zoop",
     "description": "Zoop SDK to Laravel framework version 5.3+",
     "keywords": [
         "Zoop",
@@ -16,6 +16,10 @@
         {
             "name": "Adenilton Henrique Ribeiro",
             "email": "adhenriquemusic@gmail.com"
+        }
+        {
+            "name": "Anderson Roberto Deizepe",
+            "email": "anderson@deizepe.com.br"
         }
     ],
     "require": {
