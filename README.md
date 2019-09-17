@@ -7,7 +7,7 @@ Zoop-laravel is a package for **Laravel 5.3+**, which consumes ZOOP payments api
 [![Latest Unstable Version](https://poser.pugx.org/adhenrique/zoop/v/unstable)](//packagist.org/packages/adhenrique/zoop)
 [![License](https://poser.pugx.org/adhenrique/zoop/license)](https://packagist.org/packages/adhenrique/zoop)
 
-## Requeriments
+## Requisitos
 
 * Laravel 5.3+
 * PHP 5.6+
@@ -16,16 +16,16 @@ Zoop-laravel is a package for **Laravel 5.3+**, which consumes ZOOP payments api
 * PHP ext-mbstring
 
 
-## Instalation
+## Instalação
 ### 1 - Composer require
-Use composer to install the package and automatically update `composer.json`, running:
+Use composer para instalar o pacote e atualizar automaticamente `composer.json`, executando:
 
 ~~~
-composer require adhenrique/zoop
+composer require deizepe/zoop
 ~~~
 
-### 2 - Update Laravel configuration
-Update your application configuration to register the package in `config/app.php` adding the following line in `'providers'` section:
+### 2 - Atualizar Laravel configuration
+Atualize sua aplicação para registrar o pacote em `config/app.php` adicionando a linha abaixo na seção `'providers'`:
 
 ~~~
 'providers' => [
@@ -36,16 +36,16 @@ Update your application configuration to register the package in `config/app.php
 ~~~
 
 ### 3 - Zoop in .env
-insert in .env:
+Inserir no arquivo .env:
 
 ~~~
-    ZOOP_PUBLISHABLE_KEY=YOUR_PUBLISHABLE_KEY
-    ZOOP_MARKETPLACE_ID=YOUR_MARKETPLACE_ID
+    ZOOP_PUBLISHABLE_KEY=SUA_CHAVA_ZPK
+    ZOOP_MARKETPLACE_ID=SEU_MARKETPLACE_ID
 ~~~
 
 ...enjoy it :D.
 
-## Usage
+## Uso
 ### 1 - Tokenizer Credit Card
 **In your Controller**
 ```php
