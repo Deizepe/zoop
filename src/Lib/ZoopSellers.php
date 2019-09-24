@@ -90,4 +90,21 @@ class ZoopSellers implements \Zoop\Contracts\ZoopSellers {
         $api = 'sellers/' . $sellerID . '/documents';
         return $this->APIResource->searchAPI($api);
     }
+     
+    
+    /**
+     * @param string $sellerID
+     * @return mixed
+     */
+    public function getAllTransactionsBySeller($sellerID, $get = null)
+    {
+        if(!is_null($get)){
+            $api = 'sellers/' . $sellerID . '/transactions?'. http_build_query($get);
+
+        }else{
+            $api = 'sellers/' . $sellerID;
+        }
+        //dd($api);
+        return $this->APIResource->searchAPI($api);
+    }
 }

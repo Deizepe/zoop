@@ -67,4 +67,11 @@ interface ZoopSellers{
      * @param $sellerID string
     */
     public function getAllDocs($sellerID);
+
+    /**
+     * Get all transactions from Seller
+     *
+     * @param $sellerID string, $get array
+    */
+    public function  getAllTransactionsBySeller($sellerID, $get = null);
 }
